@@ -17,7 +17,6 @@ export function initializeBoard() {
 
   // Place pieces on the board
   const cells = initial();
-  console.log(cells)
 
   const pieceImgSrc = {
     br: "script/imgs/pieces/br.png",
