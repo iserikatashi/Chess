@@ -1,9 +1,8 @@
 # ♟ Chess Web Application
 
-A simple chess web application built using **vanilla JavaScript**, designed with a strong focus on **clean architecture** and **separation of concerns**.
+A chess web application built using **vanilla JavaScript**, designed with a strong focus on **clean architecture**, **separation of concerns**, and **long-term scalability**.
 
-This project is currently in an **early development stage**.  
-The foundation is being prepared for a **larger future update**, including a backend server and advanced game logic.
+This project is currently in an **early development stage**, but it is planned as a **full-featured public platform** combining frontend, backend, and server-side AI.
 
 ---
 
@@ -12,62 +11,90 @@ The foundation is being prepared for a **larger future update**, including a bac
 - ✅ Chess board rendering
 - ✅ Initial board setup
 - ✅ Clean architectural separation (engine / UI)
-- ❌ Move logic & game rules (not implemented yet)
-- ❌ AI opponent
-- ❌ Backend / multiplayer support
+- ❌ Full move logic & rules (in progress / postponed)
+- ❌ Backend & multiplayer (planned)
+- ❌ AI engine (planned)
 
-This repository currently serves as:
-- A progress tracker
-- A codebase foundation
-- Preparation for future expansion
+The current version focuses only on laying a **strong structural foundation**.
+
+---
+
+## 🌍 Public Repository Philosophy
+
+This project is developed as a **fully public repository**.
+
+- Frontend code will remain public
+- Backend code will also be public
+- Server-side AI logic will be public
+- No closed-source core components are planned
+
+The goal is **transparency, learning, and long-term maintainability**, not quick delivery.
 
 ---
 
 ## 🧠 Architecture Philosophy
 
 - **Engine**
-  - Handles game data and rules
-  - Contains pure logic only
-  - No DOM or UI dependency
+  - Handles game rules and calculations
+  - Pure logic (no DOM, no UI)
+  - Designed to support AI and server-side execution
 
 - **UI**
-  - Responsible for rendering
-  - Visual updates and highlights
-  - User interaction feedback
+  - Rendering and visual feedback
+  - Board updates and move highlights
+  - No game rule logic
 
-- **Main / Controller**
-  - Application initialization
-  - Coordinates engine and UI
-  - Manages overall game flow
+- **Backend (Planned)**
+  - Game sessions
+  - Player matchmaking
+  - Authentication
+  - AI move computation
 
-This separation is intentional and required for long-term maintainability.
+This separation is intentional and required to support online play and AI integration.
 
 ---
 
-## 🚧 Planned Features (Future Update)
+## 🚧 Planned Features (Future Updates)
 
 - Complete chess move logic
 - Legal move validation
 - Move history & undo system
-- AI opponent
-- Backend server
-- Online multiplayer
-- User accounts
+- User authentication (login / accounts)
+- Online multiplayer (player vs player)
+- Server-side chess AI (self-developed)
+- Public AI logic & evaluation
+- Persistent game storage
 
-These features are **intentionally postponed** to avoid premature complexity.
+All advanced features will be introduced **incrementally**, not rushed.
+
+---
+
+## 🤖 AI Development Plan
+
+- The chess AI will be:
+  - Developed manually (no external chess engines)
+  - Executed on the server side
+  - Fully public and inspectable
+- Focus will be on:
+  - Correctness
+  - Performance
+  - Clean decision-making logic
+
+AI development is intentionally postponed until the core game logic is stable.
 
 ---
 
 ## 🎯 Project Goal
 
-This project is part of a **long-term learning and development process**.
+This project is part of a **long-term development journey**.
 
-The goal is not a quick demo, but a:
-- scalable
-- maintainable
-- well-structured web application
+The goal is to build:
+- a real web application
+- with real users
+- real backend logic
+- and real architectural discipline
 
-Chess engine development is complex and will be revisited later with stronger preparation.
+This is **not a demo project** and **not a quick clone**.
 
 ---
 
@@ -78,27 +105,27 @@ Chess engine development is complex and will be revisited later with stronger pr
 - JavaScript (ES Modules)
 - Git & GitHub
 
-No frameworks.  
-No shortcuts.
+Backend technologies will be introduced in later stages.
 
 ---
 
-## 📅 Roadmap
+## 📅 Roadmap (High-Level)
 
-- Stabilize frontend architecture
-- Build real-world web applications
-- Return to this project with:
-  - stronger architectural discipline
-  - backend integration
-  - advanced game features
+1. Solidify frontend architecture
+2. Build production-grade web applications
+3. Introduce backend services
+4. Implement authentication & multiplayer
+5. Develop and integrate server-side AI
+
+Each phase will be versioned and documented.
 
 ---
 
 ## ⚠️ Disclaimer
 
-This project is **not finished** and **not ready for production use**.
+This project is **not finished** and **not production-ready**.
 
-If you are looking for a complete chess engine, this repository does **not** provide one — **yet**.
+Features mentioned above are part of a **long-term plan**, not immediate guarantees.
 
 ---
 
